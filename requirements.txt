@@ -1,2 +1,2 @@
 tqdm
-neko-sama-api
+neko-sama
