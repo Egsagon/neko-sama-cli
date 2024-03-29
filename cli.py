@@ -144,7 +144,7 @@ def main() -> None:
         
         with tqdm.tqdm(
             iterable = FP(command).run_command_with_progress(),
-            desc = f'Current [{str(index - 1).zfill(4)}]',
+            desc = f'Current [{str(index).zfill(4)}]',
             total = 100,
             dynamic_ncols = True,
             bar_format = '{desc} {bar} {n_fmt}/{total_fmt}',
